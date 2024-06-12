@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Rural Convento Hermana Esther</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Casa Rural Convento Hermana Esther">
+            </div>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#habitaciones">Habitaciones</a></li>
+                    <li><a href="#actividades">Actividades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Bienvenidos a Casa Rural Convento Hermana Esther</h1>
+            <p>Echa un vistazo a mi página web y descubrirás quién soy, qué hago y cómo contactarme. ¡Es genial tenerte aquí!
+
+</p>
+            <a href="#contacto" class="btn">Reservar ahora</a>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p>Bienvenido a Casa Rural Convento Hermana Esther, un refugio sereno en medio de la naturaleza. Nuestro convento histórico, convertido en una acogedora casa rural, ofrece una combinación única de tranquilidad y confort. Disfruta de la paz del campo, habitaciones cómodas, y un ambiente lleno de historia y encanto.</p>
+            <img src="images/nosotros.jpg" alt="Sobre nosotros">
+        </div>
+    </section>
+
+    <section id="habitaciones" class="rooms">
+        <div class="container">
+            <h2>Habitaciones</h2>
+            <div class="room-grid">
+                <div class="room">
+                    <img src="images/habitacion1.jpg" alt="Habitación 1">
+                    <h3>Habitación 1</h3>
+                    <p>Descripción de la habitación 1.</p>
+                </div>
+                <div class="room">
+                    <img src="images/habitacion2.jpg" alt="Habitación 2">
+                    <h3>Habitación 2</h3>
+                    <p>Descripción de la habitación 2.</p>
+                </div>
+                <div class="room">
+                    <img src="images/habitacion3.jpg" alt="Habitación 3">
+                    <h3>Habitación 3</h3>
+                    <p>Descripción de la habitación 3.</p>
+                </div>
+                <div class="room">
+                    <img src="images/habitacion4.jpg" alt="Habitación 4">
+                    <h3>Habitación 4</h3>
+                    <p>Descripción de la habitación 4.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="actividades" class="activities">
+        <div class="container">
+            <h2>Actividades</h2>
+            <p>Explora una variedad de actividades locales, desde senderismo hasta visitas culturales. Disfruta de todo lo que nuestro entorno tiene para ofrecer y vive experiencias inolvidables en la Casa Rural Convento Hermana Esther.</p>
+            <img src="images/actividades.jpg" alt="Actividades">
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Casa Rural Convento Hermana Esther</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
